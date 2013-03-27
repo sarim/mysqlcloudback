@@ -3,7 +3,8 @@ Mysql Cloud Backup
 
 
 ##Introduction
-This task of this script is to provide some helper functions to painlessly take backup of mysql database, compress,encrypt,decrypt it, or split it into smaller files, upload it to [cloudapp](http://cl.ly) storage. My aim is to create a The Swiss Army knife for backup related tasks.
+This task of this __python__ script is to provide some helper functions to painlessly take backup of mysql database, compress, encrypt, decrypt it, or split it into smaller files, upload it to [cloudapp](http://cl.ly) storage…
+My aim is to create a Swiss Army knife for backup related tasks.
 
 ##Features
 Features are implemented as independent functions. You can use them as you wish. Use them in any order or skip some when not needed.
@@ -73,7 +74,8 @@ Here i generated a filename based on year-month-day then took mysqldump,compress
 It may called from crontab for scheduled backup tasks.
 
 ##Contribution and TODO
-Feel free to hack into the code and be sure to send pull request. The "downloadfile" and "joinfiles" functions are not implemented. New features can be "uploaddropbox" or "uploaddroplr" or "uploadrsync" or "uploadscp" etc . . .
+Feel free to hack into the code and be sure to send pull request. The "downloadfile" and "joinfiles" functions are not implemented(TODO). New features can be "uploaddropbox" or "uploaddroplr" or "uploadrsync" or "uploadscp" etc . . .
+Or "backuporacle", "backupFooDb" etc . . .
 
 
 ##LICENCE
